@@ -73,7 +73,7 @@ def download_weights(
 def firstPage():
     slit.title('Asian Faces Detection')
     slit.markdown('***')
-    with slit.expander("## About Me: :point_down:"):
+    with slit.expander("## About Me :point_down:"):
         slit.markdown('### Dakshitha Perera')
         slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
         slit.markdown(":computer: [d42kw01f](https://github.com/d42kw01f)")
