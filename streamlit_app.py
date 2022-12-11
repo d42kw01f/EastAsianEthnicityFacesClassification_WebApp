@@ -89,13 +89,6 @@ def sourceCode():
         slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
         slit.markdown(":computer: [d42kw01f](https://github.com/d42kw01f)")
     
-def aboutMe():
-    slit.markdown('## About Me :point_down:')
-    with slit.expander(slit.markdown("More Details: ")):
-        slit.markdown('### Dakshitha Perera')
-        slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
-        slit.markdown(":computer: [d42kw01f](https://github.com/d42kw01f)")
-    
 
 def main(model_path):
     firstPage()
@@ -107,4 +100,3 @@ if __name__=='__main__':
     Modelpath = download_weights()
     main(Modelpath)
     sourceCode()
-    aboutMe()
