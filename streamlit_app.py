@@ -73,11 +73,9 @@ def download_weights(
 def firstPage():
     slit.title('Asian Faces Detection')
     slit.markdown('***')
-    slit.header('About Us: :+1:')
-    slit.text('Ziyi Luu -> 10495781 ')
-    slit.text('Mohamed Bishr -> 10507845 ')
-    slit.text('Boh Yee Choong -> 10484578 ')
-    slit.text('Pasindu Jayasekara -> 10521966 ')
+    slit.header('About Me: :+1:')
+    slit.text('Dakshitha Perera')
+    slit.write("d42kw01f.github.io [link](https://d42kw01f.github.io/)")
     
 
 def main(model_path):
