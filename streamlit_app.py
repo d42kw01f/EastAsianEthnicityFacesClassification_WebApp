@@ -57,7 +57,7 @@ def download_weights(
             return weights
         with slit.spinner('downloading the model...'):
             print('Downloading the model from the Google Drive')
-            gdown.download(url, out)
+            gdown.download(url, out, use_cookies=False)
 
     if os.path.isdir(weights) is False:
         with slit.spinner('Unzing the model...'):
