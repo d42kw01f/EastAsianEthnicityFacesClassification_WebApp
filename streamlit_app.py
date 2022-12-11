@@ -73,16 +73,15 @@ def download_weights(
 def firstPage():
     slit.title('Asian Faces Detection')
     slit.markdown('***')
-    slit.header('About Me: :+1:')
-    slit.markdown('### Dakshitha Perera')
-    slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
-    slit.markdown(":computer: [d42kw01f](https://github.com/d42kw01f)")
+    with stlit.expander("See explanation"):
+        slit.markdown('### Dakshitha Perera')
+        slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
+        slit.markdown(":computer: [d42kw01f](https://github.com/d42kw01f)")
     
 
 def main(model_path):
-    # infoTeam()
-    firstPage()
     theModel(model_path)
+    firstPage()
     slit.markdown('***')
 
 
