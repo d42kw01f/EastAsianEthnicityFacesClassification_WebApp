@@ -75,7 +75,7 @@ def firstPage():
     slit.markdown('***')
    
 def aboutMe():
-    slit.markdown('## About Me :point_down:'):
+    slit.markdown('## About Me :point_down:')
     with slit.expander(slit.markdown("More Details: ")):
         slit.markdown('### Dakshitha Perera')
         slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
