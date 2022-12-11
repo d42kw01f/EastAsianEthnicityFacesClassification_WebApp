@@ -76,7 +76,7 @@ def firstPage():
 
     
 def sourceCode():
-    tab1, tab2, tab3 = stlit.tabs(["Source Code", "Hugging Face", "About Me"])
+    tab1, tab2, tab3 = slit.tabs(["Source Code", "Hugging Face", "About Me"])
 
     with tab1:
        slit.markdown(":facepunch: [GitHub](https://github.com/d42kw01f/EastAsianEthnicityFacesClassification)")
