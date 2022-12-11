@@ -75,7 +75,9 @@ def firstPage():
     slit.markdown('***')
     slit.header('About Me: :+1:')
     slit.text('Dakshitha Perera')
-    slit.write("d42kw01f.github.io [link](https://d42kw01f.github.io/)")
+    slit.write("SITE: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
+    slit.write("GitHub: [d42kw01f](https://github.com/d42kw01f)")
+    slit.write("GitHub: [d42kw01f](https://github.com/d42kw01f)")
     
 
 def main(model_path):
