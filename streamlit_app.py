@@ -46,7 +46,7 @@ def theModel(path):
     print('theModel Function is done!\n\n')
 
 def download_weights(
-    url='https://drive.google.com/uc?id=1foV-oDiGMBn2t0c3sPr0nK6e-H82HbI5',
+    url='https://drive.google.com/uc?id=114rMSX2hza0wNYvfWHDTOyDfvwUq_Hf7K&export=download',
     out="asian_faces_model.zip",
 ):
     print('The weights downloading function!!')
