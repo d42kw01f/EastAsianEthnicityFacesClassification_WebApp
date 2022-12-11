@@ -73,7 +73,22 @@ def download_weights(
 def firstPage():
     slit.title('Asian Faces Detection')
     slit.markdown('***')
-   
+
+    
+def sourceCode():
+    tab1, tab2, tab3 = stlit.tabs(["Source Code", "Hugging Face", "About Me"])
+
+    with tab1:
+       slit.markdown(":facepunch: [GitHub](https://github.com/d42kw01f/EastAsianEthnicityFacesClassification)")
+
+    with tab2:
+       slit.markdown("🤗 [HuggingFace](https://huggingface.co/d42kw01f/EastAsianEthnicityClassification)")
+
+    with tab3:
+        slit.markdown('### Dakshitha Perera')
+        slit.markdown(":earth_asia: [https://d42kw01f.github.io/](https://d42kw01f.github.io/)")
+        slit.markdown(":computer: [d42kw01f](https://github.com/d42kw01f)")
+    
 def aboutMe():
     slit.markdown('## About Me :point_down:')
     with slit.expander(slit.markdown("More Details: ")):
@@ -91,3 +106,5 @@ def main(model_path):
 if __name__=='__main__':
     Modelpath = download_weights()
     main(Modelpath)
+    sourceCode()
+    aboutMe()
